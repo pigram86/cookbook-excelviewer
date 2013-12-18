@@ -16,5 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-default[:excel][:url] = "http://pigramsoftware.no-ip.biz/repo/ExcelViewer.exe"
+default[:excel][:url] = "https://dl.dropboxusercontent.com/u/36379525/ExcelViewer.exe"
 default[:excel][:xlview] = "C:/Program Files (x86)/Microsoft Office/Office12/XLVIEW.exe"
