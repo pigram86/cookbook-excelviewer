@@ -18,11 +18,11 @@
 #
 # install excel viewer
 windows_package "Excel Viewer" do
-  source node[:excel][:url]
+  source node['excel']['url']
   options "/quiet"
   installer_type :custom
   action :install
-  not_if {::File.exists?(node[:excel][:xlview])}
+  not_if {::File.exists?(node['excel']['xlview'])}
   not_if {reboot_pending?}
 end
 
